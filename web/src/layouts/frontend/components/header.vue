@@ -3,8 +3,8 @@
         <el-row justify="center">
             <el-col class="header-row" :xs="24" :sm="24" :md="16">
                 <div @click="router.push({ name: '/' })" class="header-logo">
-                    <img src="~assets/logo.png" />
-                    <span class="site-name">{{ siteConfig.siteName }}</span>
+<!--                    <img src="../../../assets/logo.png" />-->
+<!--                    <span class="site-name">{{ siteConfig.siteName }}</span>-->
                 </div>
                 <div v-if="!memberCenter.state.menuExpand" @click="memberCenter.toggleMenuExpand(true)" class="user-menus-expand hidden-md-and-up">
                     <Icon name="fa fa-indent" color="var(--el-color-primary)" size="20" />
@@ -25,7 +25,7 @@
         >
             <div class="header-row">
                 <div @click="router.push({ name: '/' })" class="header-logo">
-                    <img src="~assets/logo.png" />
+                    <img src="../../../assets/logo.png" />
                     <span class="site-name">{{ siteConfig.siteName }}</span>
                 </div>
                 <div @click="memberCenter.toggleMenuExpand(false)" class="user-menus-expand hidden-md-and-up">

@@ -1,0 +1,18 @@
+export default {
+    id: 'ID',
+    status: '状态',
+    'status 0': '禁用',
+    'status 1': '启用',
+    create_time: '创建时间',
+    admin_id: '用户',
+    admin__username: '用户名',
+    admin__mobile: '手机',
+    admin__email: '邮箱',
+    city: '城市选择',
+    column1: '字段1',
+    column2: '字段2',
+    image: '图片',
+    datetime: '时间日期',
+    string: '测试1',
+    'quick Search Fields': 'ID',
+}

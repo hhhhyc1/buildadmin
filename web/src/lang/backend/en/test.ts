@@ -1,0 +1,18 @@
+export default {
+    id: 'id',
+    status: 'status',
+    'status 0': 'status 0',
+    'status 1': 'status 1',
+    create_time: 'create_time',
+    admin_id: 'admin_id',
+    admin__username: 'username',
+    admin__mobile: 'mobile',
+    admin__email: 'email',
+    city: 'city',
+    column1: 'column1',
+    column2: 'column2',
+    image: 'image',
+    datetime: 'datetime',
+    string: 'string',
+    'quick Search Fields': 'id',
+}

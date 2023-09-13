@@ -22,41 +22,7 @@
                     </div>
                 </el-col>
             </el-row>
-            <el-row justify="center">
-                <el-col :span="20" class="ba-markdown crud-tips suspension">
-                    <b>{{ t('crud.crud.Fast experience') }}</b>
-                    <ol>
-                        <li>
-                            {{ t('crud.crud.experience 1 1') }}
-                            <a target="_blank" href="https://wonderful-code.gitee.io/guide/other/developerMustSee.html" rel="noopener noreferrer">
-                                {{ t('crud.crud.experience 1 2') }}
-                            </a>
-                            {{ t('crud.crud.experience 1 3') }}
-                        </li>
-                        <li>
-                            {{ t('crud.crud.experience 2 1') }}
-                            <code>{{ t('crud.crud.experience 2 2') }}</code>
-                            {{ t('crud.crud.experience 2 3') }}<code>test_build</code>{{ t('crud.crud.data sheet') }}
-                        </li>
-                        <li>
-                            {{ t('crud.crud.experience 3 1') }}<code>{{ t('crud.crud.experience 3 2') }}</code>
-                            {{ t('crud.crud.experience 3 3') }}
-                            <code>{{ t('crud.crud.experience 3 4') }}</code>
-                        </li>
-                    </ol>
-                    <el-alert v-if="!isDev()" class="no-dev" type="warning" :show-icon="true" :closable="false">
-                        <template #title>
-                            <span>{{ t('crud.crud.experience 4 1') }}</span>
-                            <a target="_blank" href="https://wonderful-code.gitee.io/guide/other/developerMustSee.html" rel="noopener noreferrer">
-                                {{ t('crud.crud.experience 4 2') }}
-                            </a>
-                            <span>
-                                {{ t('crud.crud.experience 4 3') }}<code>{{ t('crud.crud.experience 4 4') }}</code>
-                            </span>
-                        </template>
-                    </el-alert>
-                </el-col>
-            </el-row>
+
 
             <el-dialog
                 class="ba-operate-dialog select-db-dialog"

@@ -850,6 +850,7 @@ class Crud extends Backend
             'label' => "t('" . $this->webTranslate . $translationPrefix . $field['name'] . "')",
             'prop'  => $fieldNamePrefix . $field['name'] . ($field['designType'] == 'city' ? '_text' : ''),
             'align' => 'center',
+            'fixed' => isset($field['fixed']) && $field['fixed'] === '1' ? 'true' : 'false',
         ];
 
         // 模糊搜索增加一个placeholder

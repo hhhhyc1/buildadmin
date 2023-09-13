@@ -12,9 +12,13 @@ const staticRoutes: Array<RouteRecordRaw> = [
         // 首页
         path: '/',
         name: '/',
-        component: () => import('/@/views/frontend/index.vue'),
+        // component: () => import('/@/views/frontend/index.vue'),
+        // meta: {
+        //     title: pageTitle('home'),
+        // },
+        component: () => import('/@/views/backend/login.vue'),
         meta: {
-            title: pageTitle('home'),
+            title: pageTitle('adminLogin'),
         },
     },
     {

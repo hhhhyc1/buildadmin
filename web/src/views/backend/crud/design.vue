@@ -369,6 +369,17 @@
                                     }"
                                 />
                             </div>
+                            <div class="field-inline">
+                                <FormItem
+                                    class="form-item-position-right"
+                                    label="固定表格左侧"
+                                    type="switch"
+                                    v-model="state.fields[state.activateField].fixed"
+                                    :input-attr="{
+                                        onChange: onFieldAttrChange,
+                                    }"
+                                />
+                            </div>
                             <template v-if="!isEmpty(state.fields[state.activateField].table)">
                                 <el-divider content-position="left">{{ t('crud.crud.Field Table Properties') }}</el-divider>
                                 <template v-for="(item, idx) in state.fields[state.activateField].table" :key="idx">
